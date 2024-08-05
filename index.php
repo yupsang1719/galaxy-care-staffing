@@ -12,7 +12,7 @@
 
     <section id="home">
         <div class="hero">
-            <div class="swiper-container">
+            <div class="swiper-container home-slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <h1>Welcome to Galaxy Care Staffing</h1>
