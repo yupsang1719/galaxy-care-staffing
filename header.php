@@ -1,4 +1,17 @@
 <header>
+    <div class="top-header">
+        <div class="top-header-left">
+            <a href="tel:1234567890"><img src="imgs/phone-call.png" alt="Phone" class="icon"> 123-456-7890</a>
+            <a href="mailto:info@galaxystaffing.co.uk"><img src="imgs/mail.png" alt="Mail" class="icon"> info@galaxystaffing.co.uk</a>
+        </div>
+        <div class="top-header-right">
+            <a href="login.html"><img src="imgs/user.png" alt="Login" class="icon"> Login</a>
+            <a href="register.html"><img src="imgs/register.png" alt="Register" class="icon"> Register</a>
+            <a href="https://facebook.com" target="_blank"><img src="imgs/facebook.png" alt="Facebook" class="icon"></a>
+            <a href="https://instagram.com" target="_blank"><img src="imgs/instagram.png" alt="Instagram" class="icon"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="imgs/linkedin.png" alt="LinkedIn" class="icon"></a>
+        </div>
+    </div>
     <div class="header-container">
         <div class="logo-container">
             <img src="imgs/logo-web.png" alt="Logo" class="logo">
