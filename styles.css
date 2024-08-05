@@ -98,14 +98,6 @@ footer {
     background: rgba(0, 0, 0, 0.5); /* Add a background color to make text readable */
 }
 
-.swiper-pagination-bullet {
-    background: #fff;
-}
-
-.swiper-button-next, .swiper-button-prev {
-    color: #fff;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero h1 {
