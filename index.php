@@ -38,14 +38,32 @@
     <section id="about">
         <div class="content">
             <h2>About Us</h2>
-            <p>Committed to providing experienced, compassionate staff through a rigorous recruitment process. We offer temporary and permanent staff placement in the health and social care sector.</p>
+            <p>We have extensive health & social care sector experience and are committed to providing a service. WE PRIDE IN EXCELLENT CARE.
+                Our service is underpinned by quality, value for money and an ability to cater for diverse staffing requirements, no matter how urgent.
+                We invest significant time and money on advertising and recruitment, which enables us to quickly source appropriately matched candidates
+                We are dedicated to forming long-term relationships with both us valued clients and the care professionals we employ.
+                We work closely with our clients to ensure that we meet all aspects of their staff criteria. We also liaise and update ourselves with key legislation, 
+                policies provided by regulatory bodies such as the Care Quality Commission (CQC), NHS and Skills for Care to ensure that our processes are aligned with 
+                social care policy.
+                Galaxy Care Staffing is a leading supplier of health and social care professionals across Southeast England. We specialise in providing temporary 
+                and permanent staff to the Health and Social Care Sector, and we can respond to our client’s needs at short notice.
+                We have a dedicated team to assist Service Providers and Employment applicants with registering your interest.</p>
         </div>
     </section>
 
     <section id="employers">
         <div class="content">
             <h2>Employers</h2>
-            <p>Building strong relationships with clients, regular assessments of placed candidates, and meeting all regulatory requirements.</p>
+            <p>We offer 24/7 service to meet urgent care staff needs, focusing on building strong relationships. 
+                We regularly check in to support future needs and assess placed candidates based on your feedback. Any issues are promptly addressed.</p>
+
+            <h4>Induction and Training</h4>
+            <p>Our candidates undergo comprehensive induction and training per regulatory standards and client requirements. 
+                We continually review and provide ongoing training.</p>
+
+            <h4>High Quality Candidates</h4>
+            <p>Candidates are personally interviewed with at least 12 months of care experience. 
+                Our checks include enhanced DBS, ID verification, right to work, full employment history, references, skills evaluation, and health screening.</p>
         </div>
     </section>
 

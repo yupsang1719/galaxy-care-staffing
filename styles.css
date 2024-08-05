@@ -14,6 +14,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 10px 5px -2px rgba(0, 0, 0, 0.4);
 }
 
 .header-container {
@@ -55,7 +56,11 @@ nav ul li a:hover {
 }
 
 .logo {
-    height: 55px; /* Adjust as necessary */
+    height: 50px; /* Adjust as necessary */
+}
+
+.whatsapp-icon {
+    height: 25px; /* Adjust as necessary */
 }
 
 .hero {

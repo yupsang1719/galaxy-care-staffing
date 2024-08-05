@@ -11,6 +11,9 @@
                 <li><a href="#registration">Employee Registration</a></li>
                 <li><a href="#staff">Staff Area</a></li>
                 <li><a href="#contact">Contact Us</a></li>
+                <li><a href="https://wa.me/1234567890" target="_blank">
+                    <img src="imgs/whatsapp.png" alt="WhatsApp" class="whatsapp-icon"></a>
+                </li>
             </ul>
         </nav>
     </div>
