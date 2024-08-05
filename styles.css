@@ -83,12 +83,12 @@ footer {
 }
 
 /* Swiper styles */
-.swiper-container {
+.home-slider {
     width: 100%;
     height: 400px;
 }
 
-.swiper-slide {
+.home-slider .swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
