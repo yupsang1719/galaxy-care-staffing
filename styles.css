@@ -1,5 +1,5 @@
 body {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -10,12 +10,27 @@ body {
 header {
     background: #ffffff;
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.menu-container {
+    flex: 2;
+    display: flex;
+    justify-content: right;
 }
 
 nav ul {
@@ -35,6 +50,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: rgb(94, 95, 95); /* Optional: Change color on hover */
+}
+
+.logo {
+    height: 55px; /* Adjust as necessary */
+}
+
 .hero {
     background: url('hero-image.jpg') no-repeat center center/cover;
     height: 400px;
@@ -44,7 +67,7 @@ nav ul li a {
     flex-direction: column;
     text-align: center;
     color: #fff;
-    margin-top: 60px; /* To account for fixed header */
+    margin-top: 100px; /* Adjust if necessary to account for header height */
 }
 
 .hero h1 {
@@ -112,6 +135,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
     nav ul {
         flex-direction: column;
         text-align: center;
