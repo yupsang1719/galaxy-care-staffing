@@ -30,9 +30,6 @@
                         <a href="#registration" class="cta">Register Now</a>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </section>
