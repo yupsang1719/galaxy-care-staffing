@@ -16,7 +16,16 @@
         <div class="logo-container">
             <img src="imgs/logo-web.png" alt="Logo" class="logo">
         </div>
-        <nav class="menu-container">
+
+        <div class="menu-icon" onclick="toggleMenu()">
+                &#9776; <!-- This is the hamburger icon -->
+        </div>
+        
+        <div class="close-icon" onclick="toggleMenu()">
+            &times; <!-- This is the cross icon -->
+        </div>
+
+        <nav class="menu-container" id="nav-menu">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
