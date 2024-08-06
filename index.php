@@ -52,7 +52,7 @@
                     We have a dedicated team to assist Service Providers and Employment applicants with registering your interest.</p>
             </div>
             <div class="about-image">
-                <img src="imgs/about3.png" alt="About Us Image">
+                <img src="imgs/about3.png" alt="About Us Image" class="scroll-animate">
             </div>
         </div>
     </section>
@@ -61,7 +61,7 @@
     <section id="employers">
     <div class="employers-container">
         <div class="employers-image">
-            <img src="imgs/emp.png" alt="Employers Image">
+            <img src="imgs/emp.png" alt="Employers Image" class="scroll-animate">
         </div>
         <div class="employers-text">
             <h2>Employers</h2>
@@ -138,6 +138,29 @@
             setTimeout(togglePopup, 5000); // Show the popup after 5 seconds
         }
     </script>
+
+    <!--JavaScript to handle the intersection observer  -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const elements = document.querySelectorAll('.scroll-animate');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.5
+            });
+
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+
 
 
 
