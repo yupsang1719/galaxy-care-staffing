@@ -5,7 +5,7 @@
             <a href="mailto:info@galaxystaffing.co.uk"><img src="imgs/mail.png" alt="Mail" class="icon"> info@galaxystaffing.co.uk</a>
         </div>
         <div class="top-header-right">
-            <a href="login.html"><img src="imgs/user.png" alt="Login" class="icon"> Login</a>
+            <a href="login.php"><img src="imgs/user.png" alt="Login" class="icon"> Login</a>
             <a href="register.html"><img src="imgs/register.png" alt="Register" class="icon"> Register</a>
             <a href="https://facebook.com" target="_blank"><img src="imgs/facebook.png" alt="Facebook" class="icon"></a>
             <a href="https://instagram.com" target="_blank"><img src="imgs/instagram.png" alt="Instagram" class="icon"></a>

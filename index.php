@@ -90,9 +90,46 @@
     </section>
 
     <section id="contact">
-        <div class="content">
-            <h2>Contact Us</h2>
-            <p>Phone: (123) 456-7890 | Email: info@galaxystaffing.co.uk | Address: 123 Galaxy Road, SE England</p>
+        <div class="contact-container">
+            <div class="contact-form card">
+                <h2>Contact Us</h2>
+                <form action="contact_submit.php" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="query" name="query" required>
+                                <option value="" disabled selected>Select Query</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Support">Support</option>
+                                <option value="Billing">Billing</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="contact" name="contact" placeholder="Contact Number" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="address" name="address" placeholder="Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="contact-info card">
+                <h2>Corporate Office</h2>
+                <p><strong>Address:</strong><br>14-40 Victoria road, Aldershot, Hampshire, GU11 1TQ</p>
+                <p><strong>Contact No:</strong><br>01483 374094</p>
+                <p><strong>Email:</strong><br>admin@galaxystaffing.co.uk</p>
+            </div>
         </div>
     </section>
 
